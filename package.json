@@ -1,0 +1,23 @@
+{
+  "name": "finance",
+  "version": "1.0.0",
+  "description": "My hunky-dory Nuxt.js project",
+  "author": "tinahe",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.0.0",
+    "express": "^4.16.3",
+    "element-ui": "^2.4.6",
+    "@nuxtjs/axios": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

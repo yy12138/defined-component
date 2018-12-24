@@ -1,0 +1,89 @@
+a{
+    text-decoration: none;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+}
+li{
+    list-style-type: none;
+}
+ul,h1,h2,h3,h4,h5,h6,div{
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+i,strong,em,b{
+    font-weight: 500;
+    font-style: normal;
+}
+.common-h2-en{
+    color: #d0d4d7;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    font-weight: 400;
+}
+.common-h2{
+    color: #313131;
+    font-size: 28px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 6px;
+    margin-bottom: 4px;
+}
+.common-h2::after{
+    content: '';
+    position: absolute;
+    left: 49%;
+    width: 40px;
+    height: 2px;
+    background-color: #c9001b;
+    bottom: 0px;
+}
+.common-desc{
+    color: #b5b5b5;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.area-margin{
+    margin-bottom: 80px;
+}
+.area-mini-margin{
+    margin-bottom: 50px;
+}
+.area-large-margin{
+    margin-bottom: 120px;
+}
+.area-padding{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.main-content-area{
+    width: 1200px;
+    margin: 0 auto;
+}
+table{
+    border-collapse: collapse;
+}
+.ellipsis{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.main-color{
+    color: #c9001b;
+}
+@media (max-width: 1000px) {
+    html{
+        width: 1200px;
+    }
+    .banner-input-inner .triangle-top,.banner-input-inner .triangle-bottom,.banner-input-inner .advertise-main{
+        display: none;
+    }
+}

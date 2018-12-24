@@ -1,12 +1,12 @@
 module.exports= {
-    qq: '54715632',
-    qq1: '25468542',
-    qq2: '417587953',
-    qq3: '69874523',
-    hotTel1: '075523322291',
-    hotTel2: '075523322292',
-    licenseHotTel: '13509610080',
-    licenseHotTelText: '135-0961-0080',
-    hotTel1Txt: '0755-23322291',
-    hotTel2Txt: '0755-23322292'
+    qq: '2980973392',
+    qq1: '2980973392',
+    qq2: '2980973392',
+    qq3: '2980973392',
+    hotTel1: '15879153258',
+    hotTel2: '15879153258',
+    licenseHotTel: '15879153258',
+    licenseHotTelText: '15879153258',
+    hotTel1Txt: '15879153258',
+    hotTel2Txt: '15879153258'
 }
